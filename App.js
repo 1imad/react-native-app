@@ -1,14 +1,22 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import HomeScreen from './src/screens/HomeScreen';
+// import HomeScreen from './src/screens/HomeScreen';
+import SkillsPage from "./src/screens/SkillsPage";
 
 const navigator = createStackNavigator(
   {
-    Home: HomeScreen
+    // Home: HomeScreen
+    SkillsPage: SkillsPage 
   },
+  // {
+  //   initialRouteName: 'Home',
+  //   defaultNavigationOptions: {
+  //     title: 'Imad Ahmed'
+  //   }
+  // },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'SkillsPage',
     defaultNavigationOptions: {
-      title: 'Imad Ahmed'
+      title: 'Skills'
     }
   }
 );

@@ -8,7 +8,7 @@ const HomeScreen = () => {
     <View style={styles.mainView}>
       <Text style={styles.text}>My first react native app.</Text>
       <Image style={styles.image} source={image}></Image>
-      <Text style={styles.paragraph}>Hi, My name is <Text style={styles.bold}>{name}</Text></Text>
+      <Text style={styles.paragraph}>Hi, I'm <Text style={styles.bold}>{name}</Text></Text>
     </View>
   );
 };
